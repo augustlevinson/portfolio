@@ -1,0 +1,28 @@
+.links-container {
+	display: flex;
+	gap: 2em;
+	margin-top: 20px;
+}
+
+.link-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	text-align: center;
+}
+
+.link-item a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.link-item:hover {
+	color: var(--color-purple-primary);
+}
+
+.link-text {
+	color: inherit;
+	font-size: 0.6em;
+	font-weight: 500;
+}
