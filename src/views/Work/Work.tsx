@@ -1,4 +1,3 @@
-import React from "react";
 import "./Work.css";
 import Tag from "../../components/Tag/Tag";
 import OceanView from "../../assets/oceanview-showcase.png";
