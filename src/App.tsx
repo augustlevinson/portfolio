@@ -1,13 +1,15 @@
-import Links from "./components/Links";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
+import Home from "./views/Home/Home.tsx";
+import Work from "./views/Work/Work.tsx";
 
 function App() {
 	return (
 		<div className="app-container">
-			<h1>August Levinson</h1>
-			<h2>Web developer</h2>
-      <p>Located in Stockholm</p>
-      <Links />
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/work" element={<Work />} />
+			</Routes>
 		</div>
 	);
 }

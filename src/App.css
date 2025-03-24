@@ -4,7 +4,7 @@
 
 * {
 	font-family: var(--main-font);
-	color: var(--color-gray-light);
+	color: var(--color-gray-lighter);
 }
 
 ::selection {
@@ -19,17 +19,20 @@
 	background-color: var(--color-black);
 }
 
-h1 {
+h1, .name-heading {
 	font-family: var(--h1-font);
-	font-size: 3em;
+	font-size: 3rem;
 	color: var(--color-purple-primary);
   transition: transform 0.8s;
 }
 
-h1:hover {
+
+h1:hover, .name-heading:hover {
 	color: var(--color-green-primary);
-	transform: rotate3d(1, 1, 1, 5deg);
-	transition: transform 0.8s;
+}
+
+.name-heading {
+	text-decoration: none;
 }
 
 h2 {
@@ -44,16 +47,57 @@ h2:hover {
 
 p {
 	font-weight: 300;
-	font-size: 1em;
+	font-size: 0.8em;
+}
+
+.twist-animation:hover {
+	transform: rotate3d(1, 1, 1, 5deg);
+	transition: transform 0.8s;
 }
 
 .app-container {
   margin: auto;
-  max-width: 400px;
+	width: 100%;
+  max-width: 2000px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10vh;
+	padding: 2em;
+}
+
+.landing-container {
+  margin: auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin-top: 20vh;
-	padding: 2em;
+}
+
+.work-link {
+	background-color: var(--color-black);
+	color: var(--color-green-primary);
+	border: 2px solid var(--color-green-primary);
+	margin-top: 3em;
+	padding: 1em;
+	text-align: center;
+	font-size: 1em;
+	font-weight: 800;
+	transition: padding 0.3s;
+	border-radius: 5em;
+	text-decoration: none;
+
+	&:hover {
+		background-color: var(--color-green-primary);
+		color: var(--color-black);
+		border: 2px solid var(--color-green-primary);
+		transition: padding 0.3s;
+	}
+}
+
+
+@media screen and (max-width: 650px) {
+	h2 {
+		font-size: 1.6em;
+	}
 }
