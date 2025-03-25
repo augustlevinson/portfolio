@@ -51,7 +51,7 @@ const Work = () => {
 					</p>
 				</div>
 				<div className="work-item">
-					<Tag contents={["WebSockets", "React", "MongoDB", "TypeScript", "Node.js", "JWT"]} />
+					<Tag contents={["WebSockets", "React", "MongoDB", "JavaScript", "Node.js", "JWT"]} />
 					<div className="work-image">
 						<img src={Editor} />
 					</div>
@@ -61,7 +61,12 @@ const Work = () => {
 					</p>
 					<p className="project-link-wrapper">
 						<a className="project-link" href="https://github.com/augustlevinson/ssr-editor-frontend">
-							GitHub repo &gt;
+							GitHub repo (frontend) &gt;
+						</a>
+					</p>
+					<p className="project-link-wrapper">
+						<a className="project-link" href="https://github.com/augustlevinson/ssr-editor-backend">
+							GitHub repo (backend) &gt;
 						</a>
 					</p>
 				</div>

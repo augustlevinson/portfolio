@@ -22,6 +22,7 @@
 h1, .name-heading {
 	font-family: var(--h1-font);
 	font-size: 3rem;
+	font-weight: 400;
 	color: var(--color-purple-primary);
   transition: transform 0.8s;
 }
