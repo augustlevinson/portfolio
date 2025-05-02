@@ -1,7 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./views/Home/Home.tsx";
-import Work from "./views/Work/Work.tsx";
 
 function App() {
 	return (
