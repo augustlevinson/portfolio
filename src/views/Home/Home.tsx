@@ -7,11 +7,11 @@ const Home: React.FC = () => {
 		<div className="landing-container">
 			<h1 className="twist-animation"><a className="name-heading" href="/">August Levinson</a></h1>
 			<h2>Web developer</h2>
-			<p>Located in Stockholm</p>
+			<p>Currently at <a href="https://rhythmicvisions.io/">Rhythmic Visions</a>.</p>
+			<p>Located in Stockholm.</p>
+		<div className="links-container">
 			<Links />
-			<a className="work-link" href="/work">
-				Selected work &gt;
-			</a>
+		</div>
 		</div>
 	);
 };

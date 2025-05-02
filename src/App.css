@@ -27,7 +27,6 @@ h1, .name-heading {
   transition: transform 0.8s;
 }
 
-
 h1:hover, .name-heading:hover {
 	color: var(--color-green-primary);
 }
