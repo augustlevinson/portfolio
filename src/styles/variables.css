@@ -8,6 +8,6 @@
 	--color-gray-lighter: #eef0f1;
 	--color-black: #1e1e1e;
 
-	--h1-font: "Instrument Serif", serif;
-	--main-font: "IBM Plex Mono", "Inter", Arial, sans-serif;
+	--heading-font: "Instrument Serif", serif;
+	--main-font: "IBM Plex Mono", monospace;
 }
