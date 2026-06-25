@@ -1,6 +1,6 @@
 import React from "react";
 import Links from "../../components/Links/Links";
-import "./Home.css";
+import "./home.css";
 import Grainient from './Grainient';
 
 const Home: React.FC = () => {
